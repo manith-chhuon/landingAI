@@ -1,0 +1,19 @@
+:root{--accent:#5c6ac4;--bg:#f7f8fc;--text:#1c2130}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.45;color:var(--text);background:var(--bg);margin:0}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.hero{background:linear-gradient(135deg,#eef2ff 0%, #ffffff 100%);padding:64px 0;text-align:center}
+.hero h1{font-size:2.2rem;margin:0 0 12px;color:var(--accent)}
+.lead{color:#334155;margin:0 0 18px}
+.cta{display:inline-block;background:var(--accent);color:white;padding:12px 20px;border-radius:8px;text-decoration:none}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:24px}
+.features article{background:white;padding:18px;border-radius:10px;box-shadow:0 4px 14px rgba(30,41,59,0.06)}
+.features h2{margin:0 0 8px;font-size:1.1rem;color:#0f172a}
+.about{margin-top:28px;background:white;padding:18px;border-radius:10px;box-shadow:0 4px 14px rgba(30,41,59,0.04)}
+.contact{margin-top:28px;background:#ffffff;padding:18px;border-radius:10px;box-shadow:0 4px 14px rgba(30,41,59,0.04)}
+form label{display:block;margin-bottom:10px}
+input[type=text],input[type=email],textarea{width:100%;padding:10px;border:1px solid #e6e9ef;border-radius:6px}
+button{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+.note{font-size:0.85rem;color:#64748b;margin-top:10px}
+footer{padding:16px 0;text-align:center;color:#94a3b8}
+@media(min-width:900px){.hero h1{font-size:3rem}}
