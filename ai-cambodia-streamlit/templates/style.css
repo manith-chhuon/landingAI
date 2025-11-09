@@ -1,0 +1,110 @@
+/* Streamlit Overrides */
+.main > div {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.block-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Main Styles */
+:root {
+    --primary-color: #007bff;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 76px;
+}
+
+/* Navigation */
+.navbar {
+    transition: all 0.3s ease;
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Form */
+#contactForm {
+    background: var(--light-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 1.5rem 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+    }
+    
+    section {
+        padding: 40px 0;
+    }
+}
+
+/* Custom Animations */
+.card, .btn-primary {
+    transition: all 0.3s ease;
+}
+
+/* List Styles */
+.list-group-item {
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 0.5rem;
+}

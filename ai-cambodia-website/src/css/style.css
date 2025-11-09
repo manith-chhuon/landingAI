@@ -1,0 +1,14 @@
+ai-cambodia-website
+├── src
+│   ├── css
+│   │   ├── style.css
+│   │   └── bootstrap.min.css
+│   ├── js
+│   │   └── main.js
+│   └── pages
+│       └── index.html
+├── public
+│   └── assets
+├── .gitignore
+├── vercel.json
+└── README.md
